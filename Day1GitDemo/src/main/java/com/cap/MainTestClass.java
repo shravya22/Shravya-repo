@@ -8,6 +8,7 @@ public class MainTestClass {
 		AddofTwo add=new AddofTwo();
 
 		LargeofTwo large=new LargeofTwo();
+		Multiplication mul=new Multiplication();
 
 		// TODO Auto-generated method stub
 System.out.println("Hello World");
@@ -16,6 +17,7 @@ class1.show();
 add.sum(2,3);
 
 large.findLarge(3,2);
+mul.multiply(2,3);
 
 greet();
 	}
