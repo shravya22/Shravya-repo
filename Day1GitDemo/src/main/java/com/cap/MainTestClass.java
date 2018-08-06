@@ -4,9 +4,11 @@ public class MainTestClass {
 
 	public static void main(String[] args) {
 		SalesClass class1=new SalesClass();
+		LargeofTwo large=new LargeofTwo();
 		// TODO Auto-generated method stub
 System.out.println("Hello World");
 class1.show();
+large.findLarge(3,2);
 greet();
 	}
 
