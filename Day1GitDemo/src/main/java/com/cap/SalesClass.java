@@ -8,10 +8,10 @@ public class SalesClass {
 		// TODO Auto-generated method stub
 		for(int num:arr)
 		{
-			
+			sum+=num;
 			System.out.println(num);
 		}
-
+		System.out.println(sum);
 	}
 	
 }
